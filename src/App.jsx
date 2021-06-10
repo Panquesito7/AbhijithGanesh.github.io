@@ -1,10 +1,12 @@
 
 import './App.css';
 import DashBoard from './Components/LandingPage.jsx'
-
+import {HashRouter} from 'react-router'
 function App() {
   return (
-   <DashBoard/>
+    <HashRouter>
+      <DashBoard/>
+    </HashRouter>
   );
 }
 
