@@ -4,7 +4,7 @@ import Blog from "./Blog"
 import Recom from "./Recom"
 import ContactMe from "./ContactMe"
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
 } from "react-router-dom";
