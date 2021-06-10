@@ -12,14 +12,14 @@ import {
 const RoutingMap = () => {
     return (
         <>
-            <Router>
+            
                 <Switch>
                     <Route  exact path = "/" component = {Blog}></Route>
                     <Route path = "/Profile" component = {Profile}></Route>
                     <Route path = "/ContactMe" component = {ContactMe}></Route>
                     <Route path = "/Recommendations" component = {Recom}></Route>
                 </Switch>
-            </Router>
+            
         </>
     )
 }
