@@ -14,15 +14,14 @@ import {
 const RoutingMap = () => {
     return (
         <>
-            <HashRouter>
+            <Router>
                 <Switch>
-                    <Route  exact path = "/" component = {Blog}></Route>
-                    <Route  exact path = "/Profile" component = {Profile}></Route>
-                    <Route  exact path = "/ContactMe" component = {ContactMe}></Route>
-                    <Route exact path = "/Recommendations" component = {Recom}></Route>
+                    <Route  exact path = "/" ><Blog/></Route>
+                    <Route  exact path = "/Profile"><Profile/></Route>
+                    <Route  exact path = "/ContactMe" ><ContactMe/></Route>
+                    <Route exact path = "/Recommendations" ><Recom/></Route>
                 </Switch>
-            </HashRouter>
-            
+            </Router>          
         </>
     )
 }
