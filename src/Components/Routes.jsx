@@ -4,23 +4,24 @@ import Blog from "./Blog"
 import Recom from "./Recom"
 import ContactMe from "./ContactMe"
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
+    Link,
     Switch,
     Route,
+    HashRouter,
 } from "react-router-dom";
 
 const RoutingMap = () => {
     return (
         <>
-            <Link to = "/Profile"><Blog/></Link>
-            <Link to = "/ContactMe"><Profile/></Link>
-            <Link to = "/ContactMe"><ContactMe/></Link>
+            <Router>
                 <Switch>
                     <Route  exact path = "/" component = {Blog}></Route>
                     <Route path = "/Profile" component = {Profile}></Route>
                     <Route path = "/ContactMe" component = {ContactMe}></Route>
                     <Route path = "/Recommendations" component = {Recom}></Route>
                 </Switch>
+            </Router>
             
         </>
     )
