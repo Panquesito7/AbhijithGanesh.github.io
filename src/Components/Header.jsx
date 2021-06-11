@@ -58,9 +58,9 @@ const DesignerHeader = () => {
                     </button>
             </Grid>
                 <Grid   container  direction="row"  justify="flex-end"  alignItems="center">
-                    <Grid item s = {3}><Typography variant = "h3"><i><a style = {RightHeader} href = '#Profile'>Profile</a></i></Typography></Grid>
-                    <Grid item s ={3}><Typography variant = "h3"><i><a style = {RightHeader}href  = '#ContactMe' >Contact Me</a></i></Typography></Grid>
-                    <Grid item s ={4}><Typography variant = "h3"><i><a style = {RightHeader} href = '#Recommendations'>Recommendations</a></i></Typography></Grid>
+                    <Grid item s = {3}><Typography variant = "h3"><i><a style = {RightHeader} href = {RouteGiver('Profile')}>Profile</a></i></Typography></Grid>
+                    <Grid item s ={3}><Typography variant = "h3"><i><a style = {RightHeader}href = {RouteGiver('ContactMe')}>Contact Me</a></i></Typography></Grid>
+                    <Grid item s ={4}><Typography variant = "h3"><i><a style = {RightHeader} href = {RouteGiver('Recommendations')}>Recommendations</a></i></Typography></Grid>
                 </Grid>
         </Toolbar>              
     </AppBar>

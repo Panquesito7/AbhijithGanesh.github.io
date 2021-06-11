@@ -15,10 +15,12 @@ const RoutingMap = () => {
     return (
         <>
         <Router>
-                    <Route  exact path = "/"><Blog/></Route>
-                    <Route exact path = "/Profile"><Profile/></Route>
-                    <Route exact path = "/ContactMe"><ContactMe/></Route>
-                    <Route exact path = "/Recommendations"><Recom/></Route>
+                    <Switch>
+                        <Route  exact path = "/"><Blog/></Route>
+                        <Route  exact path = "/Profile"><Profile/></Route>
+                        <Route  exact path = "/ContactMe"><ContactMe/></Route>
+                        <Route exact path = "/Recommendations"><Recom/></Route>
+                    </Switch>
             </Router>          
         </>
     )

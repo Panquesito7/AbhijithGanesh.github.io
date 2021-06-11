@@ -1,6 +1,10 @@
 import React from "react";
 import {Grid} from "@material-ui/core"
 import Abhijith from "./Static/Cover.png"
+import ContactMe from "./ContactMe";
+import Footer from './footer'
+import Profile from "./Profile";
+
 
 const Blog = () => {
 
@@ -68,12 +72,7 @@ const Blog = () => {
                         </content>
                         </ul>
                     </div>
-                    <center>
-                        <i class="fab fa-python white" style= {Icons}></i>
-                        <i class="fab fa-js-square" style = {Icons}></i>
-                        <i class="fab fa-react" style = {Icons}></i>
-                        <i class="fab fa-docker" style = {Icons}></i>
-                    </center>
+                    <Footer/>
                     </main>
                 </Grid>
             </Grid>
