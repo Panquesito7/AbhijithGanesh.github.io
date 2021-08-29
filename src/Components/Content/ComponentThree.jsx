@@ -17,7 +17,7 @@ const ProjectConst = () => {
                </Typography>
                <TitleUnderline />             
                </TitleContent>            
-               <Typography style = {{color:"White", align:'Left', padding:10}}>{p.description}</Typography>
+               <Typography style = {{color:"White", align:'Left', padding:10, fontFamily:"Roboto",fontSize:"1.2em"}}>{p.description}</Typography>
                <section>
                <br></br>
                <Grid   container  direction="row"  justify="space-evenly"  alignItems="center">

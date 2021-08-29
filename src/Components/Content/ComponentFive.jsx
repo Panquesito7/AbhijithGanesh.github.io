@@ -1,6 +1,7 @@
 import React from 'react'
 import { Typography, Grid} from '@material-ui/core'
-import {FaLinux} from 'react-icons/fa'
+import {FaLinux,FaFigma} from 'react-icons/fa'
+import {BiGitMerge} from 'react-icons/bi'
 import {DiReact, DiBootstrap, DiMysql,DiSqllite} from "react-icons/di"
 import {SiMaterialUi, SiDjango, SiFlask, SiKubernetes,SiPostman, SiGraphql, SiArchlinux} from "react-icons/si"
 import Garuda from "./Garuda.svg"
@@ -54,9 +55,9 @@ const FrameworkComponent = () => {
                 </Grid>
                 <Grid Item xs>
                     <Typography variant = "h5" style = {DesignStyles}>Tools</Typography>
-                    <SiKubernetes class = "fa-react" style = {FrontEndIcons}/>
+                    <FaFigma  style = {FrontEndIcons}/>
                     <SiPostman style = {FrontEndIcons}/>
-                    <SiGraphql class = "fa-react" style = {FrontEndIcons}/>
+                    <BiGitMerge  style = {FrontEndIcons}/>
                 </Grid>
                 <Grid item xs style = {DesignStyles}>
                     <Typography variant ="h5" style  = {DesignStyles}>Databases and Distros</Typography>

@@ -9,8 +9,9 @@ export const Img = styled.img`
 
 export const GridContainer = styled.section`
 display: flex;
-padding: 3rem;
+
 place-items: center;
+padding: 3rem;
 column-gap: 2rem;
 row-gap: 3rem;
 @media (max-width:415px){
@@ -21,11 +22,12 @@ row-gap: 3rem;
 }
 
 `
+
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  grid-area: 1/2/2/4
   @media (min-width:415px) {
     width: 100%;
   }
@@ -45,7 +47,6 @@ export const HeaderThree = styled.h3`
   padding: .5rem 0;
   
 `;
-//font-size: ${(props) => props.title ? '3rem' : '2rem'};
 
 export const TitleUnderline = styled.hr`
   width: 50px;

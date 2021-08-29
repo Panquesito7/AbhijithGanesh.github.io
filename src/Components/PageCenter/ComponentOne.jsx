@@ -20,7 +20,7 @@ const CentralContent = () => {
     <>
         <Typography variant = "h4" style = {Portfolio}>Welcome to <br></br>My Personal Portfolio! </Typography>
         <Typography variant = "h6" style = {subPortfolio}>
-            <em>Hello There! Seeing that you've landed here, most likely you should be interested to know about me or already know about me and want to know more. This project was one of my first attempts of  building a React-front-end application  and you can explore this website to know more about me,</em>
+            Hello There! Seeing that you've landed here, most likely you should be interested to know about me or already know about me and want to know more. This project was one of my first attempts of  building a React-front-end application  and you can explore this website to know more about me.
         </Typography>
         
          <br></br>
