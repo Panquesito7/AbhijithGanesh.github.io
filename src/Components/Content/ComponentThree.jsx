@@ -1,17 +1,10 @@
 import React from 'react'
 import { Grid, Typography } from '@material-ui/core'
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, TitleUnderline, Tag, TagList, TitleContent, UtilityList, Img, SectionTag } from '../Projects/ProjectStyles.jsx';
+import { BlogCard,ExternalLinks, GridContainer, TitleUnderline, TitleContent, UtilityList} from '../Projects/ProjectStyles.jsx';
 import {Data} from '../Data/data.js'
 
 const ProjectConst = () => {
-    const Margins  = {
-        color:"White",
-        fontFamily:"Space Grotesk",
-        fontSize: '18px',
-        borderColor:"White",
-        borderLeft: "2px",
-        borderRight: "2px",
-    }
+    const buttonStyles = {}
     return(
     <>
         {Data.map((p,i) => {return (
@@ -35,8 +28,8 @@ const ProjectConst = () => {
                </Grid>
                </section>
                <UtilityList>
-               <ExternalLinks href={p.source}>Code</ExternalLinks>
-               <ExternalLinks href={p.web}>Web</ExternalLinks>
+               <ExternalLinks href={p.source} style = {buttonStyles} >Code</ExternalLinks>
+               <ExternalLinks href={p.web} style = {buttonStyles}>Web</ExternalLinks>
                </UtilityList>
            </BlogCard>
        </GridContainer>  

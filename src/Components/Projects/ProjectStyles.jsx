@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
+//import useMediaQuery from '@material-ui/core/useMediaQuery';
 export const Img = styled.img`
   width:100%;
   height:100%;

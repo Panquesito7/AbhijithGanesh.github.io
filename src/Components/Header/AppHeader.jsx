@@ -1,25 +1,15 @@
-import Link from 'next/link';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import {FaDiscord} from "react-icons/fa"
 import { AiFillGithub, AiFillLinkedin, } from 'react-icons/ai';
 import {IoAirplane,} from 'react-icons/io5'
 import React from 'react';
 import {
-  AppBar,
   Grid,
   Typography,
-  Toolbar,
-  Button,
-  IconButton,
 
 } from "@material-ui/core";
-import { Container, CenterSection,RightSection,LeftSection, NavLink, SocialIcons } from './HeaderStyles.jsx';
+import { Container, CenterSection,RightSection,LeftSection, SocialIcons } from './HeaderStyles.jsx';
 const StyledBar = () =>  {
- 
-  const style = {
-    background: '#0a0e29',
-    minHeight: 70,
-}
 const LHSHeader = {
     fontWeight:900,
     fontSize: 24,
@@ -35,10 +25,6 @@ const Icons = {
     paddingLeft: "4px",
 }
 const matches = useMediaQuery('(max-width:415px)');
-const fontsizes = {
-    One:20,
-    Two:24
-}
 const CenterHeaderOne = {
     fontSize:20,
     fontFamily: 'Exo 2',
@@ -64,10 +50,10 @@ return (
         </section>
     </LeftSection>
         <CenterSection>
-            <Grid item ><Typography variant = "h4"><a style = {CenterHeaderOne} href = '#Projects'><em>Projects</em></a></Typography></Grid>
-            <Grid item ><Typography variant = "h4"><a style = {CenterHeaderOne}href = '#Frameworks'><em>Frameworks</em></a></Typography></Grid>
-            <Grid item ><Typography variant = "h4"><a style = {CenterHeaderOne}href = '#Timeline'><em>My Timeline</em></a></Typography></Grid>
-            <Grid item ><Typography variant = "h4"><a style = {CenterHeaderOne} href = '#About'><em>About</em></a></Typography></Grid>    
+            <Grid item><Typography variant = "h4"><a style = {CenterHeaderOne} href = '#Projects'>Projects</a></Typography></Grid>
+            <Grid item ><Typography variant = "h4"><a style = {CenterHeaderOne}href = '#Frameworks'>Frameworks</a></Typography></Grid>
+            <Grid item ><Typography variant = "h4"><a style = {CenterHeaderOne}href = '#Timeline'>My Timeline</a></Typography></Grid>
+            <Grid item ><Typography variant = "h4"><a style = {CenterHeaderOne} href = '#About'>About</a></Typography></Grid>    
         </CenterSection>
     <RightSection>
         <Grid item xs>

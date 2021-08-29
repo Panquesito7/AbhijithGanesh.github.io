@@ -13,12 +13,7 @@ import { FrameworksHeader } from './Frameworks/FrameworkHeader';
 import TimeLineContent from './Content/ComponentFour';
 
 const Blog = () => {
-    const ContentStyle = {
-        fontFamily: "Space Grotesk",
-        fontSize: '18px',
-        fontWeight:200,
-        color: 'White'
-    };
+  
     let config = {
         num: [4, 7],
         rps: 0.1,

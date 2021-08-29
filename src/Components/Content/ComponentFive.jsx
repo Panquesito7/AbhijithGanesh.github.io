@@ -64,7 +64,7 @@ const FrameworkComponent = () => {
                     <DiMysql style = {DatabaseDesign}/>
                     <SiArchlinux style = {DatabaseDesign}/>
                     <DiSqllite class = "fa-react" style = {DatabaseDesign}/>
-                    <img src = {Garuda}style = {{width:40, height:40}}></img>
+                    <img src = {Garuda}style = {{width:40, height:40}} alt = "Garuda Linux"></img>
                 </Grid>
                 
             </Grid>

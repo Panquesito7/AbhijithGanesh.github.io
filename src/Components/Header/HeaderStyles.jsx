@@ -23,16 +23,15 @@ export const LeftSection =
  
 `
 export const CenterSection = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 3 /5 ;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   @media only screen  and width(415px){
-    grid-area: 2 / 2 / 3 / 5;
   }
-
-    
 `;
+
+// grid-area: 2 / 2 / 3 / 5;
 // @media ${(props) => props.theme.breakpoints.sm} {
 //   grid-area: 2 / 2 / 3 / 5;
 // }

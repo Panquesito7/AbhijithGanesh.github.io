@@ -1,5 +1,5 @@
 import {SiBootstrap, SiDjango, SiPython} from 'react-icons/si'
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon} from '@iconify/react';
 import fastapiIcon from '@iconify-icons/simple-icons/fastapi';
 
 
