@@ -9,7 +9,7 @@ const FrameworkComponent = () => {
     const Margins  = {
         color:"White",
         fontFamily:"Space Grotesk",
-        fontSize: '20px',
+        fontSize: 24,
         borderColor:"White",
         borderLeft: "2px",
         borderRight: "2px",
@@ -35,7 +35,7 @@ const FrameworkComponent = () => {
         <>
             <Typography variant = "h4">
                 <p style = {Margins}>
-                    I've worked with a variety of web-development tools and frameworks, from Back-end to Design. I've experience with JavaScript and Python based frameworks and Libraries. I am a Linux-enthusiast and I am currently using Garuda Linux. If you guys do too, reach out!
+                    I've worked with a variety of web-development tools and frameworks, which cover different aspects like Back-end and Design. I've got experience with JavaScript and Python along with corresponding frameworks and libraries of those languages. I am a Linux-enthusiast and I am currently using Garuda Linux. If you guys do too, reach out!
                 </p>
             </Typography>
             <br></br>

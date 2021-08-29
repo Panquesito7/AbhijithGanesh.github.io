@@ -5,7 +5,7 @@ export const TimelineHeader = () => {
         color:"White",
         fontFamily:"Prompt",
         fontWeight: 800,
-        fontSize:64,
+        fontSize:48,
         borderBottom:"2px white solid",
         paddingBottom:"2px",
     }
